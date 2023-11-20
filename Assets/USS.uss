@@ -1,0 +1,83 @@
+.Menu-Button {
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-left-color: rgba(142, 140, 140, 0);
+    border-right-color: rgba(142, 140, 140, 0);
+    border-top-color: rgba(142, 140, 140, 0);
+    border-bottom-color: rgba(142, 140, 140, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    width: 340px;
+    height: 70px;
+    background-color: rgba(128, 127, 127, 0);
+    font-size: 34px;
+    top: 195px;
+    background-image: url('project://database/Assets/Spritesheet_UI_Flat_Button_02.png?fileID=949289586&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_10');
+    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
+}
+
+.Menu-Button:hover {
+    scale: 1.05 1.05;
+}
+
+.Menu-Button:active {
+    scale: 0.95 0.95;
+    -unity-background-image-tint-color: rgb(152, 152, 152);
+}
+
+.Config-Slider {
+    width: 469px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -unity-text-align: middle-center;
+}
+
+.Config-Button {
+    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
+    font-size: 32px;
+    margin-top: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url('project://database/Assets/Spritesheet_UI_Flat_Button_02.png?fileID=538974317&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_17');
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-text-align: lower-center;
+    align-items: center;
+    align-self: center;
+    justify-content: space-around;
+    -unity-font-style: normal;
+}
+
+.Config-Button:hover {
+    scale: 1.05 1.05;
+}
+
+.Config-Button:active {
+    scale: 0.9 0.9;
+}
+
+.Config-Label {
+    background-image: url('project://database/Assets/Banner.png?fileID=21300000&guid=041eb247a47ffbf4cbe1d6984e67caae&type=3#Banner');
+    -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
+    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    font-size: 35px;
+    -unity-text-align: middle-center;
+}
