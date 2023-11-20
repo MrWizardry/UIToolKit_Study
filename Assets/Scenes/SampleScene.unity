@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 877402643}
   - component: {fileID: 877402645}
   - component: {fileID: 877402646}
+  - component: {fileID: 877402647}
   m_Layer: 5
   m_Name: UIDocument
   m_TagString: Untagged
@@ -294,6 +295,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 408153e91af51814faee711e35b254ab, type: 2}
   effectAudio: {fileID: 1532533041}
+--- !u!114 &877402647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877402642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfa79651398baf41abb189e1319f3e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1034927920
 GameObject:
   m_ObjectHideFlags: 0

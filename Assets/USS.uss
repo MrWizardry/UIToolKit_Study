@@ -22,8 +22,8 @@
     background-color: rgba(128, 127, 127, 0);
     font-size: 34px;
     top: 195px;
-    background-image: url('project://database/Assets/Spritesheet_UI_Flat_Button_02.png?fileID=949289586&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_10');
-    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    background-image: url('project://database/Assets/Sprites/Spritesheet_UI_Flat_Button_02.png?fileID=949289586&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_10');
+    -unity-font: url('project://database/Assets/Sprites/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
     -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
 }
 
@@ -45,7 +45,7 @@
 }
 
 .Config-Button {
-    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    -unity-font: url('project://database/Assets/Sprites/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
     -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
     font-size: 32px;
     margin-top: 35px;
@@ -53,7 +53,7 @@
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-image: url('project://database/Assets/Spritesheet_UI_Flat_Button_02.png?fileID=538974317&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_17');
+    background-image: url('project://database/Assets/Sprites/Spritesheet_UI_Flat_Button_02.png?fileID=538974317&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_17');
     background-color: rgba(255, 255, 255, 0);
     border-left-color: rgba(255, 255, 255, 0);
     border-right-color: rgba(255, 255, 255, 0);
@@ -75,9 +75,9 @@
 }
 
 .Config-Label {
-    background-image: url('project://database/Assets/Banner.png?fileID=21300000&guid=041eb247a47ffbf4cbe1d6984e67caae&type=3#Banner');
+    background-image: url('project://database/Assets/Sprites/Banner.png?fileID=21300000&guid=041eb247a47ffbf4cbe1d6984e67caae&type=3#Banner');
     -unity-font-definition: url('project://database/Assets/CormorantUpright-Regular%20SDF.asset?fileID=11400000&guid=7f17a3e2499736b429b46aaabeb0337c&type=2#CormorantUpright-Regular SDF');
-    -unity-font: url('project://database/Assets/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
+    -unity-font: url('project://database/Assets/Sprites/CormorantUpright-Regular.ttf?fileID=12800000&guid=9961890e2a11b50439b2d2c32ed9ef5a&type=3#CormorantUpright-Regular');
     font-size: 35px;
     -unity-text-align: middle-center;
 }

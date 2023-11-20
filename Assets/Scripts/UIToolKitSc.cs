@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class UIToolKitSc : MonoBehaviour
 {
     public VolumeController vC;
+    private IGUI iGUI;
+
     public string itchPedro;
     public string assetsLink;
 
@@ -36,6 +38,7 @@ public class UIToolKitSc : MonoBehaviour
 
     void Start()
     {
+        iGUI = GetComponent<IGUI>();
         //--------Root--------//
         var root = GetComponent<UIDocument>().rootVisualElement;
         //--------Visual Elements--------//
@@ -83,7 +86,8 @@ public class UIToolKitSc : MonoBehaviour
 
     void StartButtonPressed()
     {
-        SceneManager.LoadScene("NextScene");
+        iGUI.IGUIElement.style.display = DisplayStyle.Flex;
+        menuElement.style.display = DisplayStyle.None;
     }
     void ConfigButtonPressed()
     {

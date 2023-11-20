@@ -1,0 +1,26 @@
+.ItemSpace {
+    background-image: url('project://database/Assets/Sprites/Spritesheet_UI_Flat.png?fileID=-145906845&guid=01b7ee7fab53f1b4892346a46b86b17f&type=3#Spritesheet_UI_Flat_107');
+}
+
+.progress-bar-1 .unity-progress-bar__progress {
+    background-color: rgb(220, 20, 60);
+}
+
+.progress-bar-2 .unity-progress-bar__progress {
+    background-color: rgb(60, 179, 113);
+}
+
+.progress-bar-3 .unity-progress-bar__progress {
+    background-color: rgb(34, 89, 218);
+}
+
+.Button_IGUI {
+}
+
+.Button_IGUI:hover {
+    background-image: url('project://database/Assets/Sprites/Spritesheet_UI_Flat_Button_02.png?fileID=669600902&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_4');
+}
+
+.Button_IGUI:active {
+    background-image: url('project://database/Assets/Sprites/Spritesheet_UI_Flat_Button_02.png?fileID=-1721975307&guid=468f35e48bc44b042bbe53f80b08ff7a&type=3#Spritesheet_UI_Flat_Button_02_5');
+}
