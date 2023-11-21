@@ -26,7 +26,6 @@ public class UIToolKitSc : MonoBehaviour
     //--------Config--------//
     public Button r1;
     public Button r2;
-    public Button r3;
     public Button effect;
     public Button returm;
 
@@ -58,7 +57,6 @@ public class UIToolKitSc : MonoBehaviour
         effect = root.Q<Button>("PlayEffects");
         r1 = root.Q<Button>("R1");
         r2 = root.Q<Button>("R2");
-        r3 = root.Q<Button>("R3");
         returm = root.Q<Button>("ReturnMenu");
 
             //---Credit---//
@@ -71,11 +69,11 @@ public class UIToolKitSc : MonoBehaviour
         startButton.clicked += StartButtonPressed;
         configButton.clicked += ConfigButtonPressed;
         credButtons.clicked += CreditButtonPressed;
+        quit.clicked += QuitButtonClicked;
 
            //---Config---//
         r1.clicked += Resolution1Clicked;
         r2.clicked += Resolution2Clicked;
-        r3.clicked += Resolution3Clicked;
         effect.clicked += EffectTestButtonClicked;
         returm.clicked += ReturnButtonClicked;
             //---Credit---//
@@ -99,17 +97,18 @@ public class UIToolKitSc : MonoBehaviour
         menuElement.style.display = DisplayStyle.None;
         creditsElement.style.display = DisplayStyle.Flex;
     }
+    void QuitButtonClicked()
+    {
+        Application.Quit();
+    }
+
     void Resolution1Clicked()
     {
-        Screen.SetResolution(2560,1440,true);
+        Screen.SetResolution(2560,1440,false);
     }
     void Resolution2Clicked()
     {
         Screen.SetResolution(1920,1080,true);
-    }
-    void Resolution3Clicked()
-    {
-        Screen.SetResolution(1280,720,true);
     }
     void EffectTestButtonClicked()
     {
