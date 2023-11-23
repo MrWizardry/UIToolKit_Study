@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 792563e33e7bf4a4c9e90748dffa4c86
+guid: 3cc9de6b50f39d44e8bf3014af5e8c7a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -12,6 +12,7 @@ TrueTypeFontImporter:
   - Josefin Slab
   fallbackFontReferences:
   - {fileID: 12800000, guid: 243ccbe8df300cf4095efc0f2f6db6ea, type: 3}
+  - {fileID: 12800000, guid: 792563e33e7bf4a4c9e90748dffa4c86, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

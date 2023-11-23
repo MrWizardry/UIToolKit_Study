@@ -104,11 +104,11 @@ public class UIToolKitSc : MonoBehaviour
 
     void Resolution1Clicked()
     {
-        Screen.SetResolution(2560,1440,false);
+        Screen.SetResolution(2560,1440,true);
     }
     void Resolution2Clicked()
     {
-        Screen.SetResolution(1920,1080,true);
+        Screen.SetResolution(1920,1080,false);
     }
     void EffectTestButtonClicked()
     {
